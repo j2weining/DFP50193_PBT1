@@ -54,7 +54,7 @@ require 'function.php'
                 <td colspan="3">Total Price</td>
             </tr>
             <tr>
-                <td colspan="3">RM<label <?php echo $total?>></label></td>
+                <td colspan="3">RM<?php echo $total; ?></td>
             </tr>
             <tr>
                 <td colspan="3">

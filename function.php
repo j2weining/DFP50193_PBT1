@@ -1,10 +1,13 @@
 <?php
 $service = $_POST['service'];
 
-$total = 0;
-$additionalprice = 0;
+$total;
+$additionalprice;
+$haircut = 10;
 
-if($service == 'haircut'){
-    $haircut = 10;
-    $total = $haircut;
+function totalprice($haircut,$service,$total){
+    if($service == 'haircut'){
+        $total += $haircut;
+    }
+    return $total;
 }
