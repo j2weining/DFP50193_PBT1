@@ -14,7 +14,7 @@ require 'function.php'
 
 <body>
     <h1>Result</h1>
-    <form method="post" action="result.php">
+    <form method="post" action="index.php">
         <table border="1">
             <tr>
                 <td>Services</td>
@@ -24,25 +24,25 @@ require 'function.php'
             <tr>
                 <td>Hair Cut</td>
                 <td>RM 10.00</td>
-                <td><input type="radio" name="haircut" value="haircut" <?php if($haircut == 'haircut') echo " checked";?>></td>
+                <td><input type="radio" name="service" value="haircut" <?php if($service == 'haircut') echo " checked";?>></td>
 
             </tr>
             <tr>
                 <td>Hair Wash</td>
                 <td>RM 5.00</td>
-                <td><input type="radio" name="hairwash" value="hairwash" <?php if($hairwash == 'hairwash') echo " checked";?>></td>
+                <td><input type="radio" name="service" value="hairwash" <?php if($service == 'hairwash') echo " checked";?>></td>
 
             </tr>
             <tr>
                 <td>Hair Treatment</td>
                 <td>RM 20.00</td>
-                <td><input type="radio" name="hairtreatment" value="hairtreatment" <?php if($hairtreatment == 'hairtreatment') echo " checked";?>></td>
+                <td><input type="radio" name="service" value="hairtreatment" <?php if($service == 'hairtreatment') echo " checked";?>></td>
 
             </tr>
             <tr>
                 <td>Hair Dye</td>
                 <td>RM 50.00</td>
-                <td><input type="radio" name="hairdye" value="hairdye" <?php if($hairdye == 'hairdye') echo " checked";?>></td>
+                <td><input type="radio" name="service" value="hairdye" <?php if($service == 'hairdye') echo " checked";?>></td>
          
             </tr>
             <tr>
@@ -51,9 +51,14 @@ require 'function.php'
                 <td>Select Option</td>
             </tr>
             <tr>
-                <td colspan="5">
-                    <button type="submit">Pay</button>
-                    <button type="reset">Reset</button>
+                <td colspan="3">Total Price</td>
+            </tr>
+            <tr>
+                <td colspan="3">RM<label <?php echo $total?>></label></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button type="submit">Back</button>
                 </td>
             </tr>
         </table>

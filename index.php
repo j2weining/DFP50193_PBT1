@@ -21,26 +21,22 @@
             <tr>
                 <td>Hair Cut</td>
                 <td>RM 10.00</td>
-                <td><input type="radio" name="haircut"></td>
-
+                <td><input type="radio" name="service" value="haircut"></td>
             </tr>
             <tr>
                 <td>Hair Wash</td>
                 <td>RM 5.00</td>
-                <td><input type="radio" name="hairwash"></td>
-
+                <td><input type="radio" name="service" value="hairwash"></td>
             </tr>
             <tr>
                 <td>Hair Treatment</td>
                 <td>RM 20.00</td>
-                <td><input type="radio" name="hairtreatment"></td>
-
+                <td><input type="radio" name="service" value="hairtreatment"></td>
             </tr>
             <tr>
                 <td>Hair Dye</td>
                 <td>RM 50.00</td>
-                <td><input type="radio" name="hairdye"></td>
-         
+                <td><input type="radio" name="service" value="hairdye"></td>
             </tr>
             <tr>
                 <td>Additional Services</td>
@@ -48,7 +44,7 @@
                 <td>Select Option</td>
             </tr>
             <tr>
-                <td colspan="5">
+                <td colspan="3">
                     <button type="submit">Pay</button>
                     <button type="reset">Reset</button>
                 </td>
