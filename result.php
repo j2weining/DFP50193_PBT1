@@ -14,20 +14,50 @@ require 'function.php'
 
 <body>
     <h1>Result</h1>
+    <form method="post" action="result.php">
         <table border="1">
             <tr>
                 <td>Services</td>
                 <td>Price</td>
+                <td>Select Option</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Hair Cut</td>
+                <td>RM 10.00</td>
+                <td><input type="radio" name="haircut" value="haircut" <?php if($haircut == 'haircut') echo " checked";?>></td>
+
             </tr>
             <tr>
-                <td>Total Price</td>
-                <td><label>RM <?php echo $total?></label></td>
+                <td>Hair Wash</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="hairwash" value="hairwash" <?php if($hairwash == 'hairwash') echo " checked";?>></td>
+
+            </tr>
+            <tr>
+                <td>Hair Treatment</td>
+                <td>RM 20.00</td>
+                <td><input type="radio" name="hairtreatment" value="hairtreatment" <?php if($hairtreatment == 'hairtreatment') echo " checked";?>></td>
+
+            </tr>
+            <tr>
+                <td>Hair Dye</td>
+                <td>RM 50.00</td>
+                <td><input type="radio" name="hairdye" value="hairdye" <?php if($hairdye == 'hairdye') echo " checked";?>></td>
+         
+            </tr>
+            <tr>
+                <td>Additional Services</td>
+                <td>Price</td>
+                <td>Select Option</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button type="submit">Pay</button>
+                    <button type="reset">Reset</button>
+                </td>
             </tr>
         </table>
+    </form>
 </body>
 
 </html>

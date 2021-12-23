@@ -21,25 +21,25 @@
             <tr>
                 <td>Hair Cut</td>
                 <td>RM 10.00</td>
-                <td><input type="radio"></td>
+                <td><input type="radio" name="haircut"></td>
 
             </tr>
             <tr>
                 <td>Hair Wash</td>
                 <td>RM 5.00</td>
-                <td><input type="radio"></td>
+                <td><input type="radio" name="hairwash"></td>
 
             </tr>
             <tr>
                 <td>Hair Treatment</td>
                 <td>RM 20.00</td>
-                <td><input type="radio"></td>
+                <td><input type="radio" name="hairtreatment"></td>
 
             </tr>
             <tr>
                 <td>Hair Dye</td>
                 <td>RM 50.00</td>
-                <td><input type="radio"></td>
+                <td><input type="radio" name="hairdye"></td>
          
             </tr>
             <tr>
