@@ -20,44 +20,47 @@ require 'function.php'
                 <td>Services</td>
                 <td>Price</td>
                 <td>Select Option</td>
-            </tr>
-            <tr>
-                <td>Hair Cut</td>
-                <td>RM 10.00</td>
-                <td><input type="radio" name="service" value="haircut" <?php if($service == 'haircut') echo " checked";?>></td>
-
-            </tr>
-            <tr>
-                <td>Hair Wash</td>
-                <td>RM 5.00</td>
-                <td><input type="radio" name="service" value="hairwash" <?php if($service == 'hairwash') echo " checked";?>></td>
-
-            </tr>
-            <tr>
-                <td>Hair Treatment</td>
-                <td>RM 20.00</td>
-                <td><input type="radio" name="service" value="hairtreatment" <?php if($service == 'hairtreatment') echo " checked";?>></td>
-
-            </tr>
-            <tr>
-                <td>Hair Dye</td>
-                <td>RM 50.00</td>
-                <td><input type="radio" name="service" value="hairdye" <?php if($service == 'hairdye') echo " checked";?>></td>
-         
-            </tr>
-            <tr>
                 <td>Additional Services</td>
                 <td>Price</td>
                 <td>Select Option</td>
             </tr>
             <tr>
-                <td colspan="3">Total Price</td>
+                <td>Hair Cut</td>
+                <td>RM 10.00</td>
+                <td><input type="radio" name="service" value="haircut" <?php if($service == 'haircut') echo " checked";?>></td>
+                <td>Hair Wash</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="wash" <?php if($addservice == 'wash') echo " checked";?>></td>
             </tr>
             <tr>
-                <td colspan="3">RM<?php echo $total; ?></td>
+                <td rowspan="2">Hair Treatment</td>
+                <td rowspan="2">RM 20.00</td>
+                <td rowspan="2"><input type="radio" name="service" value="hairtreatment" <?php if($service == 'hairtreatment') echo " checked";?>></td>
+                <td>Moisture Treatment</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="moisture" <?php if($addservice == 'moisture') echo " checked";?>></td>
             </tr>
             <tr>
-                <td colspan="3">
+                <td>Relax Treatment</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="relax" <?php if($addservice == 'relax') echo " checked";?>></td>
+            </tr>
+            <tr>
+                <td>Hair Dye</td>
+                <td>RM 50.00</td>
+                <td><input type="radio" name="service" value="hairdye" <?php if($service == 'hairdye') echo " checked";?>></td>
+                <td>Hair Bleach</td>
+                <td>RM 20.00</td>
+                <td><input type="radio" name="addservice" value="hairbleach" <?php if($addservice == 'hairbleach') echo " checked";?>></td>
+            </tr>
+            <tr>
+                <td colspan="6">Total Price</td>
+            </tr>
+            <tr>
+                <td colspan="6">RM<?php echo $total; ?></td>
+            </tr>
+            <tr>
+                <td colspan="6">
                     <button type="submit">Back</button>
                 </td>
             </tr>

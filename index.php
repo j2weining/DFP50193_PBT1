@@ -17,34 +17,41 @@
                 <td>Services</td>
                 <td>Price</td>
                 <td>Select Option</td>
-            </tr>
-            <tr>
-                <td>Hair Cut</td>
-                <td>RM 10.00</td>
-                <td><input type="radio" name="service" value="haircut"></td>
-            </tr>
-            <tr>
-                <td>Hair Wash</td>
-                <td>RM 5.00</td>
-                <td><input type="radio" name="service" value="hairwash"></td>
-            </tr>
-            <tr>
-                <td>Hair Treatment</td>
-                <td>RM 20.00</td>
-                <td><input type="radio" name="service" value="hairtreatment"></td>
-            </tr>
-            <tr>
-                <td>Hair Dye</td>
-                <td>RM 50.00</td>
-                <td><input type="radio" name="service" value="hairdye"></td>
-            </tr>
-            <tr>
                 <td>Additional Services</td>
                 <td>Price</td>
                 <td>Select Option</td>
             </tr>
             <tr>
-                <td colspan="3">
+                <td>Hair Cut</td>
+                <td>RM 10.00</td>
+                <td><input type="radio" name="service" value="haircut"></td>
+                <td>Hair Wash</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="wash"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Hair Treatment</td>
+                <td rowspan="2">RM 20.00</td>
+                <td rowspan="2"><input type="radio" name="service" value="hairtreatment"></td>
+                <td>Moisture Treatment</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="moisture"></td>
+            </tr>
+            <tr>
+                <td>Relax Treatment</td>
+                <td>RM 5.00</td>
+                <td><input type="radio" name="addservice" value="relax"></td>
+            </tr>
+            <tr>
+                <td>Hair Dye</td>
+                <td>RM 50.00</td>
+                <td><input type="radio" name="service" value="hairdye"></td>
+                <td>Hair Bleach</td>
+                <td>RM 20.00</td>
+                <td><input type="radio" name="addservice" value="hairbleach"></td>
+            </tr>
+            <tr>
+                <td colspan="6">
                     <button type="submit">Pay</button>
                     <button type="reset">Reset</button>
                 </td>
