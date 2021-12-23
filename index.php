@@ -11,7 +11,7 @@
 <body>
     <h1>Hair Garden Salon</h1>
     <p></p>
-    <form method="post" action="function.php">
+    <form method="post" action="result.php">
         <table border="1">
             <tr>
                 <td>Services</td>
