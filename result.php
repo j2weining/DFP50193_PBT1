@@ -1,5 +1,6 @@
 <?php
-require 'function.php'
+require 'function.php';
+$total = totalprice($_POST);
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +31,7 @@ require 'function.php'
                 <td><input type="radio" name="service" value="haircut" <?php if($service == 'haircut') echo " checked";?>></td>
                 <td>Hair Wash</td>
                 <td>RM 5.00</td>
-                <td><input type="radio" name="addservice" value="wash" <?php if($addservice == 'wash') echo " checked";?>></td>
+                <td><input type="checkbox" name="addservice" value="wash" <?php if($addservice == 'wash') echo " checked";?>></td>
             </tr>
             <tr>
                 <td rowspan="2">Hair Treatment</td>
@@ -38,12 +39,12 @@ require 'function.php'
                 <td rowspan="2"><input type="radio" name="service" value="hairtreatment" <?php if($service == 'hairtreatment') echo " checked";?>></td>
                 <td>Moisture Treatment</td>
                 <td>RM 5.00</td>
-                <td><input type="radio" name="addservice" value="moisture" <?php if($addservice == 'moisture') echo " checked";?>></td>
+                <td><input type="checkbox" name="addservice" value="moisture" <?php if($addservice == 'moisture') echo " checked";?>></td>
             </tr>
             <tr>
                 <td>Relax Treatment</td>
                 <td>RM 5.00</td>
-                <td><input type="radio" name="addservice" value="relax" <?php if($addservice == 'relax') echo " checked";?>></td>
+                <td><input type="checkbox" name="addservice" value="relax" <?php if($addservice == 'relax') echo " checked";?>></td>
             </tr>
             <tr>
                 <td>Hair Dye</td>
@@ -51,7 +52,7 @@ require 'function.php'
                 <td><input type="radio" name="service" value="hairdye" <?php if($service == 'hairdye') echo " checked";?>></td>
                 <td>Hair Bleach</td>
                 <td>RM 20.00</td>
-                <td><input type="radio" name="addservice" value="hairbleach" <?php if($addservice == 'hairbleach') echo " checked";?>></td>
+                <td><input type="checkbox" name="addservice" value="hairbleach" <?php if($addservice == 'hairbleach') echo " checked";?>></td>
             </tr>
             <tr>
                 <td colspan="6">Total Price</td>
