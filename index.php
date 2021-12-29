@@ -24,35 +24,35 @@
             <tr>
                 <td>Hair Cut</td>
                 <td>RM 10.00</td>
-                <td><input type="radio" name="service" value="haircut"></td>
+                <td><input type="radio" name="service" value="Hair Cut" checked></td>
                 <td>Hair Wash</td>
                 <td>RM 5.00</td>
-                <td><input type="checkbox" name="addservice" value="wash"></td>
+                <td><input type="checkbox" name="hairwash" value="Hair Wash"></td>
             </tr>
             <tr>
                 <td rowspan="2">Hair Treatment</td>
                 <td rowspan="2">RM 20.00</td>
-                <td rowspan="2"><input type="radio" name="service" value="hairtreatment"></td>
+                <td rowspan="2"><input type="radio" name="service" value="Hair Treatment"></td>
                 <td>Moisture Treatment</td>
                 <td>RM 5.00</td>
-                <td><input type="checkbox" name="addservice" value="moisture"></td>
+                <td><input type="checkbox" name="moisture" value="Moisture Treatment"></td>
             </tr>
             <tr>
                 <td>Relax Treatment</td>
                 <td>RM 5.00</td>
-                <td><input type="checkbox" name="addservice" value="relax"></td>
+                <td><input type="checkbox" name="relax" value="Relax Treatment"></td>
             </tr>
             <tr>
                 <td>Hair Dye</td>
                 <td>RM 50.00</td>
-                <td><input type="radio" name="service" value="hairdye"></td>
+                <td><input type="radio" name="service" value="Hair Dye"></td>
                 <td>Hair Bleach</td>
                 <td>RM 20.00</td>
-                <td><input type="checkbox" name="addservice" value="hairbleach"></td>
+                <td><input type="checkbox" name="hairbleach" value="Hair Bleach"></td>
             </tr>
             <tr>
                 <td colspan="6">
-                    <button type="submit">Pay</button>
+                    <button type="submit">Proceed</button>
                     <button type="reset">Reset</button>
                 </td>
             </tr>
