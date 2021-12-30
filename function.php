@@ -32,107 +32,107 @@ function totalprice($total)
 
     if ($service == 'Hair Cut') {
         $total = 10;
-        if(isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        if (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 35;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 15;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['hairwash'])){
+        } elseif (isset($_POST['hairwash'])) {
             $total += 5;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['moisture'])){
+        } elseif (isset($_POST['moisture'])) {
             $total += 5;
-        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['relax'])){
+        } elseif (isset($_POST['relax'])) {
             $total += 5;
-        } elseif (isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairbleach'])) {
             $total += 20;
-        }else{
+        } else {
             $total = 10;
         }
     } elseif ($service == 'Hair Treatment') {
         $total = 20;
-        if(isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        if (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 35;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 15;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['hairwash'])){
+        } elseif (isset($_POST['hairwash'])) {
             $total += 5;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['moisture'])){
+        } elseif (isset($_POST['moisture'])) {
             $total += 5;
-        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['relax'])){
+        } elseif (isset($_POST['relax'])) {
             $total += 5;
-        } elseif (isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairbleach'])) {
             $total += 20;
-        }else{
+        } else {
             $total = 10;
         }
     } elseif ($service == 'Hair Dye') {
         $total = 50;
-        if(isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        if (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 35;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 15;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['moisture'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairwash']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['hairwash'])){
+        } elseif (isset($_POST['hairwash'])) {
             $total += 5;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 30;
-        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['relax'])) {
             $total += 10;
-        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['moisture']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['moisture'])){
+        } elseif (isset($_POST['moisture'])) {
             $total += 5;
-        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['relax']) && isset($_POST['hairbleach'])) {
             $total += 25;
-        } elseif (isset($_POST['relax'])){
+        } elseif (isset($_POST['relax'])) {
             $total += 5;
-        } elseif (isset($_POST['hairbleach'])){
+        } elseif (isset($_POST['hairbleach'])) {
             $total += 20;
-        }else{
+        } else {
             $total = 10;
         }
     } else {
