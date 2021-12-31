@@ -18,26 +18,26 @@ $total = calculatetotal($_POST);
     <h1>Hair Garden Salon</h1>
     <p>Address: 6A, Jalan Khaya 1, Taman Khaya, 06010, Changlun, Kedah</p>
     <form method="post" action="index.php">
-        <table border="1">
+        <table border="1" cellpadding="0" cellspacing="0">
             <tr>
-                <td>Services</td>
-                <td><?php echo $service?></td>
+                <td id="title">Services</td>
+                <td id="tablebg"><?php echo $service?></td>
             </tr>
             <tr>
-                <td>Additional Services</td>
-                <td><?php echo $hairwash . ' ' . $moisture . ' '. $relax . ' ' . $hairbleach;?></td>
+                <td id="title">Additional Services</td>
+                <td id="tablebg"><?php echo $hairwash . ' ' . $moisture . ' '. $relax . ' ' . $hairbleach;?></td>
             </tr>
             <tr>
 
             </tr>
 
             <tr>
-                <td>Total Price</td>
-                <td>RM<?php echo $total; ?></td>
+                <td id="title2">Total Price</td>
+                <td id="tablebg">RM<?php echo $total; ?></td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <button type="submit">Back</button>
+                    <button type="submit" class="back">Back</button>
                 </td>
             </tr>
         </table>

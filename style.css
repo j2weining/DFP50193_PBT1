@@ -1,0 +1,116 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: transparent;
+  margin-top: 5%;
+}
+
+.proceed {
+  padding: 5px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+}
+
+.proceed:hover {
+  background-color: rgb(4, 172, 4);
+}
+
+.proceed:active {
+  background-color: rgb(4, 172, 4);
+  transform: translateY(2px);
+}
+
+.reset {
+  padding: 5px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+}
+
+.reset:hover {
+  background-color: rgb(48, 46, 46);
+}
+
+.reset:active {
+  background-color: rgb(48, 46, 46);
+  transform: translateY(2px);
+}
+
+.back {
+  padding: 5px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(2, 16, 211);
+  border: none;
+  border-radius: 8px;
+}
+
+.back:hover {
+  background-color: rgb(52, 6, 255);
+}
+
+.back:active {
+  background-color: rgb(52, 6, 255);
+  transform: translateY(2px);
+}
+
+tr,
+td {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 7px;
+} /*change font for tr & td */
+
+h1,
+p {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(161, 82, 161);
+  margin-left: 30%;
+  margin-right: 30%;
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+#title2 {
+  background-color: rgb(255, 247, 0);
+  color: black;
+}
+
+#title {
+  background-color: rgb(96, 7, 148);
+  color: white;
+}
+
+body{
+background-image: url(salon.jpg);
+background-position: center;
+}
+
+#tablebg{
+    background: rgb(213, 163, 247);
+}
+
+#trcolor{
+    background-color: rgb(255, 255, 125);
+}
