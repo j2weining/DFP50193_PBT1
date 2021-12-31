@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Hair Garden Salon</title>
 </head>
 
@@ -53,7 +54,7 @@
             <tr>
                 <td colspan="6">
                     <button type="submit">Proceed</button>
-                    <button type="reset">Reset</button>
+                    <button type="reset" id="reset">Reset</button>
                 </td>
             </tr>
         </table>

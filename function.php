@@ -26,7 +26,7 @@ if (isset($_POST['hairbleach'])) {
     $hairbleach = '';
 }
 
-function totalprice($total)
+function calculatetotal($total)
 {
     $service = $_POST['service'];
 
