@@ -12,7 +12,7 @@
 <body>
     <h1>Hair Garden Salon</h1>
     <p>Address: 6A, Jalan Khaya 1, Taman Khaya, 06010, Changlun, Kedah</p>
-    <form method="post" action="result.php">
+    <form method="POST" action="result.php">
         <table border="1">
             <tr>
                 <td>Services</td>
@@ -54,7 +54,7 @@
             <tr>
                 <td colspan="6">
                     <button type="submit">Proceed</button>
-                    <button type="reset" id="reset">Reset</button>
+                    <button type="reset">Reset</button>
                 </td>
             </tr>
         </table>
