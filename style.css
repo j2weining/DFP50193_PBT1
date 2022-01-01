@@ -4,7 +4,7 @@ table {
   text-align: center;
   border: transparent;
   margin-top: 5%;
-}
+} /* table */
 
 .proceed {
   padding: 5px 15px;
@@ -16,16 +16,16 @@ table {
   background-color: green;
   border: none;
   border-radius: 8px;
-}
+} /* proceed button */
 
 .proceed:hover {
   background-color: rgb(4, 172, 4);
-}
+} /* proceed button hover */
 
 .proceed:active {
   background-color: rgb(4, 172, 4);
   transform: translateY(2px);
-}
+} /* proceed button active */
 
 .reset {
   padding: 5px 15px;
@@ -37,16 +37,16 @@ table {
   background-color: black;
   border: none;
   border-radius: 8px;
-}
+} /* reset button */
 
 .reset:hover {
   background-color: rgb(48, 46, 46);
-}
+} /* reset button hover */
 
 .reset:active {
   background-color: rgb(48, 46, 46);
   transform: translateY(2px);
-}
+} /* reset button active */
 
 .back {
   padding: 5px 15px;
@@ -58,16 +58,16 @@ table {
   background-color: rgb(2, 16, 211);
   border: none;
   border-radius: 8px;
-}
+} /* back button */
 
 .back:hover {
   background-color: rgb(52, 6, 255);
-}
+} /* back button hover */
 
 .back:active {
   background-color: rgb(52, 6, 255);
   transform: translateY(2px);
-}
+} /* back button active */
 
 tr,
 td {
@@ -76,7 +76,7 @@ td {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   padding: 7px;
-} /*change font for tr & td */
+} /* change font for tr & td */
 
 h1,
 p {
@@ -90,27 +90,27 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
-}
+} /* change font for p and h1 */
 
 #title2 {
   background-color: rgb(255, 247, 0);
   color: black;
-}
+} /* change title for total,service and add services */
 
 #title {
   background-color: rgb(96, 7, 148);
   color: white;
-}
+} /* change title for price and selection */
 
-body{
-background-image: url(salon.jpg);
-background-position: center;
-}
+body {
+  background-image: url(salon.jpg);
+  background-position: center;
+} /* set image for background */
 
-#tablebg{
-    background: rgb(213, 163, 247);
-}
+#tablebg {
+  background: rgb(213, 163, 247);
+} /* set table background color */
 
-#trcolor{
-    background-color: rgb(255, 255, 125);
-}
+#trcolor {
+  background-color: rgb(255, 255, 125);
+} /* set tr background color */

@@ -21,16 +21,12 @@ $total = calculatetotal($_POST);
         <table border="1" cellpadding="0" cellspacing="0">
             <tr>
                 <td id="title">Services</td>
-                <td id="tablebg"><?php echo $service?></td>
+                <td id="tablebg"><?php echo $service ?></td>
             </tr>
             <tr>
                 <td id="title">Additional Services</td>
-                <td id="tablebg"><?php echo $hairwash . ' ' . $moisture . ' '. $relax . ' ' . $hairbleach;?></td>
+                <td id="tablebg"><?php echo $hairwash . ' ' . $moisture . ' ' . $relax . ' ' . $hairbleach; ?></td>
             </tr>
-            <tr>
-
-            </tr>
-
             <tr>
                 <td id="title2">Total Price</td>
                 <td id="tablebg">RM<?php echo $total; ?></td>
